@@ -27,7 +27,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/*_____________ header style ___________ */
 header {
     gap: 20px;
     color: white;
@@ -42,7 +42,30 @@ header>p {
     text-decoration: underline #e7bc0e;
     text-underline-position: under; 
 }
-/*    geeral style   */
+/*_____________ header style ___________ */
+
+/*_____________ general style ___________ */
+.bg_img {
+    background-image: url('../img/cleo-topper.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo_img {
+    width: 20%;
+}
+.pageGroupe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 195px;
+}
+.section_div {
+    margin-top: 50px;
+}
+/*_____________ general style ___________ */
 .group_1 {
     margin-left: 100px;
     width: 31%;
@@ -66,26 +89,6 @@ h2 {
     font-size: 250px;
     font-family: santio;
 }
-.bg_img {
-    background-image: url('../img/cleo-topper.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.logo_img {
-    width: 20%;
-}
-.pageGroupe {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    margin: 0 150px;
-}
-.section_div {
-    margin-top: 50px;
-}
 .style>p {
     font-size: 50px;
     font-family: santio;
@@ -104,10 +107,6 @@ h2 {
     margin-top: 500px;
 }
 .group_2,.group_3,.group_4,.group_6 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 90vw;
     font-family: santio;
 }
 
@@ -122,7 +121,6 @@ span {
     color: #6bc1a3;
     line-height: 80px;
     font-size: 40px;
-    margin-left: 300px;
 }
 .group_6>p {
     color: #7eb8e1;
@@ -142,19 +140,59 @@ span {
 }
 #png1 {
     position: absolute;
-    width: 100vw;
+    width: 100%;
 }
 #png2 {
     position: absolute;
-    width: 100vw;
+    width: 100%;
 }
 
 
-.group_7 {
-    height: 200vh;
-    background-color: black;
-}
 footer {
     background-color: black;
-
 }
+.footer_article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 180vh;
+    color: white;
+    margin-left: 100px;
+}
+h3 {
+    font-size: 100px;
+    font-family: santio;
+    width: 60%;
+    color: white;
+    margin-bottom: 50px;
+}
+h3>p {
+    margin-left: 100px;
+}
+.btn {
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid white;
+    width: 130px;
+    height: 65px;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: black;
+}
+.btn:hover {
+    box-shadow: 5px 5px 0px -1px rgb(255, 255, 255);
+}
+.link {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 15px;
+}
+.link>a {
+    color: #6bc1a3;
+    margin-left: 5px;
+}
+
