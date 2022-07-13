@@ -1,5 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+@font-face {
+    font-family: santio;
+    src: url('../font/Santio\ Bold.ttf');
+}
+
+/*
+Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tangerine', cursive;
+ */
+
+body {
+    overflow-x: hidden;
+    height: 100vh;
+}
+.parallax {
+    height: 100%;
+    background-image: url('../img/cleo-topper.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    gap: 20px;
+    color: white;
+    margin:  20px 50px;
+    height: 4vh;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Roboto', sans-serif;
+}
+header>p {
+    font-size: 20px;
+    text-decoration: underline #e7bc0e;
+    text-underline-position: under; 
+}
+/*    geeral style   */
+.group_1 {
+    margin-left: 100px;
+    width: 31%;
+}
+.group_1>p {
+    font-weight: 700;
+    letter-spacing: -8px;
+    font-size: 85px;
+    color: #e7bc0e;
+    font-family: 'Tangerine', cursive;
+
+}
+h1 {
+    word-wrap: break-word;
+    color: white;
+    font-size: 100px;
+    font-family: santio;
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 250px;
+    font-family: santio;
+}
+.bg_img {
+    background-image: url('../img/cleo-topper.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo_img {
+    width: 20%;
+}
+.pageGroupe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 150px;
+}
+.section_div {
+    margin-top: 50px;
+}
+.style>p {
+    font-size: 50px;
+    font-family: santio;
+}
+.style_yellow {
+    color: #e7bc0e;
+}
+.style_pink {
+    color: #cb91b6;
+}
+.style_green {
+    color: #6bc1a3;
+}
+
+.group_2 {
+    margin-top: 500px;
+}
+.group_2,.group_3,.group_4,.group_6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+    font-family: santio;
+}
+
+span {
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.662);
+}
+/*    geeral style   */
+
+.group_2>p,.group_6>p {
+    color: #6bc1a3;
+    line-height: 80px;
+    font-size: 40px;
+    margin-left: 300px;
+}
+.group_6>p {
+    color: #7eb8e1;
+}
+
+
+
+
+
+
+
+
+.png_img {
+    background-color: rgb(235, 235, 235);
+    height: 100vh;
+    position: relative;
+}
+#png1 {
+    position: absolute;
+    width: 100vw;
+}
+#png2 {
+    position: absolute;
+    width: 100vw;
+}
+
+
+.group_7 {
+    height: 200vh;
+    background-color: black;
+}
+footer {
+    background-color: black;
+
 }
